@@ -1,8 +1,8 @@
-GGS-ImpactJS
-============
+# GGS-ImpactJS
 
-Google Play Game Services Interface for ImpactJS
+## Google Play Game Services Interface for ImpactJS
 
+### Installation
 To use simply copy included files into your project and include 'plugins.google.gameservice'.
 
 Update ./lib/plugins/google/constants.js to match your package.
