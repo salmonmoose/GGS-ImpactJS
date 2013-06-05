@@ -1,9 +1,15 @@
 # GGS-ImpactJS
 
 ## Google Play Game Services Interface for ImpactJS
+### Introduction
+GGS-ImpactJS is designed as an all-inclusive library for integration with Google Play Game Services. It provides interface to the service, as well as a collection of screens and entities to give feedback to the user.
 
 ### Installation
-To use simply copy included files into your project and include 'plugins.google.gameservice'.
+Currently you must load the google API in HTML - I am working on a fix for this;
+
+    <script src="https://apis.google.com/js/client:plusone.js?onload=apisLoaded"></script>
+
+Then simply copy included files into your project and include 'plugins.google.gameservice'. 
 
 Update ./lib/plugins/google/constants.js to match your package.
 
