@@ -13,15 +13,15 @@ Spawn a GoogleGameService entity and the rest of the templated behaviour is auto
     
 Send achievement unlock request:
 
-    ig.GGS.achManager.unlockAchievement(ig.GGS.constants.ACHIEVEMENTS.ACH1.code);
+    ig.GGS.unlock('ACH1');
     
 Send achievement progress request:
 
-    ig.GGS.achManager.submitProgress(ig.GGS.constant.ACHIEVEMENTS.ACH1.code, 1);
+    ig.GGS.progress('ACH1', 1);
     
 Send high-score:
 
-    ig.GGS.leadManager.gotScore(score, ig.GGS.constants.LEADERBOARDS.LDB1.code, callback);
+    ig.GGS.submitScore('LDB1', score);
     
     
 
