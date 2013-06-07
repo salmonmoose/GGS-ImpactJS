@@ -29,5 +29,9 @@ Send high-score:
 
     ig.GGS.submitScore('LDB1', score);
     
+Log an event (requires analytics.js) - all events are logged in ig.GGS
+
+    ig.GGS.event(action, label, value);
+    
     
 
